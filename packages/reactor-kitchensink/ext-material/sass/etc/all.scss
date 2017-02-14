@@ -16,3 +16,48 @@ $content-panel-grid-background: dynamic(darken($content-panel-grid-line, 5%));
         background-color: $background-color;
     }
 }
+
+//Grid example
+.under4 {
+    color: #c83c3c;
+}
+.under5 {
+    color: #ffa532;
+}
+.under6 {
+    color: #1e3285;
+}
+.over6 {
+    color: #2d802d;
+}
+
+.big-data-ratings-cell .x-grid-cell-inner {
+    font-weight: bold;
+    font-size: 35;
+    font-weight: 35;
+}
+
+//PivotGrid example
+.pivotCellGroupFooter {
+  .x-inner-el {
+    font-weight: bold;
+  }
+}
+
+.pivotCellGroupHeader {
+  .x-inner-el {
+    color: blue;
+  }
+}
+
+.pivotCellAbove500 {
+  .x-inner-el {
+    color: green;
+  }
+}
+
+.pivotCellUnder500 {
+  .x-inner-el {
+    color: red;
+  }
+}
